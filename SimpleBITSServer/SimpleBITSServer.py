@@ -1,20 +1,4 @@
-#!/usr/bin/env python
-"""
-A simple BITS server in python based on SimpleHTTPRequestHandler
-
-* Supports both Download and Upload jobs (excluding Upload-Reply)
-* Example client usage using PowerShell:
-    > Import-Module BitsTransfer
-    > Start-BitsTransfer -TransferType Upload -Source C:\temp\to_upload.txt -Destination http://127.0.0.1/to_upload.txt -DisplayName TEST
-
-References: https://msdn.microsoft.com/en-us/library/windows/desktop/aa362828(v=vs.85).aspx
-            https://winprotocoldoc.blob.core.windows.net/productionwindowsarchives/MC-BUP/[MC-BUP].pdf
-
-Author: Dor Azouri <dor.azouri@safebreach.com>
-
-Date: 2017-03-29T12:14:45Z
-
-"""
+#!/usr/bin python3
 import os
 from http.server import HTTPServer
 from http.server import SimpleHTTPRequestHandler
