@@ -1,4 +1,4 @@
-# SimpleBITSServer (Background Intelligent Transfer Service)
+# Python3 SimpleBITSServer (Background Intelligent Transfer Service)
 
 A simple python implementation of a BITS server. BITS protocol is used to transfer files asynchronously between a client and a server.
 The BITS protocol metadata communication resides mainly in BITS-defined HTTP headers, all start with prefix "BITS-". For that reason, this implemantation is based on python's built-in SimpleHTTPRequestHandler.
