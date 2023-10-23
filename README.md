@@ -6,7 +6,7 @@ A simple python implementation of a BITS server. BITS protocol is used to transf
 ## Usage
 
 ```
-python SimpleBITSServer.py [port]
+python3 SimpleBITSServer.py [port]
 ```
 
 ### Client
@@ -14,5 +14,5 @@ Prerequisites:
 * Windows and powershell
 
 ```
-> Bitsadmin /Transfer JOB /PRIORITY HIGH /UPLOAD http://<SERVER>/<FILENAME> <FILEPATH>
+> Bitsadmin /Transfer JOB /PRIORITY HIGH /UPLOAD http://<SERVER>/<FILENAME> <PATH_FILE_TO_UPLOAD>
 ```
